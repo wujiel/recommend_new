@@ -3,7 +3,6 @@ import numpy.random
 import tensorflow
 import numpy
 import matplotlib.pyplot as plt
-from Monitor import Monitor
 from state_representation import DRRAveStateRepresentation
 
 '''
@@ -87,7 +86,6 @@ class RecommendSystem:
 
         self.is_test = is_test
         #训练监测模块
-        self.monitor = Monitor('train_record\precision')
         # 从buffer里取出的批量大小
         self.batch_size = 32
         # 未来期望奖励的衰减γ值
