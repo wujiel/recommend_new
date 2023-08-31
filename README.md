@@ -1,5 +1,13 @@
 重构了全部代码，从示范学习，强化学习baseline性能超过传统方法
 运行offline_train_drrn.py
+主要相关函数：
+train_drrn_without_priority(),
+sample_create()
+train_network_without_priority()
+
+
+
+
 best：最佳排列，即此评价体系下的最佳结果，上帝才能做到的完美答案
 worst：最差排列
 episode：训练轮数
